@@ -10,26 +10,26 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f4f8; /* A very light blue-gray */
-            color: #1e293b; /* Slate-800 for good contrast */
+            background-color: #e2e8f0; /* A soft, calming gray-blue */
+            color: #1a202c; /* A deep, professional charcoal for text */
             line-height: 1.6;
         }
         .section-divider {
-            height: 2px;
+            height: 1px; /* Thinner line for a more minimalist look */
             width: 80%;
-            background: linear-gradient(to right, #a5b4fc, #93c5fd); /* Lighter, more subtle gradient */
-            margin: 1.5rem auto;
+            background: #cbd5e1; /* Soft gray color */
+            margin: 2rem auto;
             border-radius: 9999px;
             opacity: 0.8;
         }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen p-4 sm:p-8 md:p-12">
+<body class="bg-slate-100 min-h-screen p-4 sm:p-8 md:p-12">
 
-    <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
-        <header class="bg-indigo-600 text-white p-6 sm:p-8 text-center rounded-t-2xl shadow-inner">
-            <h1 class="text-3xl sm:text-4xl font-bold tracking-wide">Pravin Patel</h1>
-            <p class="mt-2 text-base sm:text-lg opacity-90 font-medium">Lead Software Engineer</p>
+    <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+        <header class="bg-slate-800 text-white p-6 sm:p-8 text-center rounded-t-2xl shadow-inner">
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-wide">Pravin Patel</h1>
+            <p class="mt-2 text-base sm:text-lg opacity-90 font-medium text-slate-300">Lead Software Engineer</p>
         </header>
 
         <main class="p-6 sm:p-8">
@@ -37,19 +37,19 @@
             <!-- Contact Section -->
             <section class="mb-8">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center sm:text-left text-gray-700">
-                    <p class="flex items-center justify-center sm:justify-start font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.103 6.103l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    <a href="tel:7323104592" class="flex items-center justify-center sm:justify-start font-medium text-slate-700 hover:text-indigo-600 transition-colors duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2 text-indigo-500">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-5.65-5.65A19.79 19.79 0 0 1 2 4.18 2 2 0 0 1 4.18 2h3a2 2 0 0 1 2 1.72l1.04 5.23a2 2 0 0 1-.61 1.9l-1.6 1.6a14.7 14.7 0 0 0 7.41 7.41l1.6-1.6a2 2 0 0 1 1.9-.61l5.23 1.04a2 2 0 0 1 1.72 2z"></path>
                         </svg>
                         (732) 310-4592
-                    </p>
-                    <p class="flex items-center justify-center sm:justify-end font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </a>
+                    <a href="mailto:pravin.patel4256@gmail.com" class="flex items-center justify-center sm:justify-end font-medium text-slate-700 hover:text-indigo-600 transition-colors duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2 text-indigo-500">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
                         </svg>
-                        <a href="mailto:pravin.patel4256@gmail.com" class="hover:underline">pravin.patel4256@gmail.com</a>
-                    </p>
+                        <span class="hover:underline">pravin.patel4256@gmail.com</span>
+                    </a>
                 </div>
                 <div class="section-divider"></div>
             </section>
